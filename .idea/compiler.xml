@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Limon" />
+        <module name="com.limon.core" />
+        <module name="com.limon.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.limon.protocol" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
